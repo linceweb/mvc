@@ -1,0 +1,17 @@
+{
+	"name": "linceweb/mvc",
+	"description": "Simple MVC",
+	"version": "0.0.6",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Lince Web",
+			"email": "contato@linceweb.com"
+		}
+	],
+	"autoload": {
+		"psr-4" : {
+			"Mvc\\" : "src/"
+		}
+	}
+}
