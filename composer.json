@@ -13,5 +13,10 @@
 		"psr-4" : {
 			"Mvc\\" : "src/"
 		}
+	},
+	"require": {
+		"twig/twig": "^2.3",
+		"phroute/phroute": "^2.1",
+		"illuminate/database": "^5.4"
 	}
 }
