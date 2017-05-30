@@ -1,3 +1,8 @@
+# install
+'''
+composer require linceweb/mvc dev-master
+'''
+
 # index.php
 ```php
 // Define Project Folder
