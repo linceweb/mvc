@@ -5,6 +5,10 @@ composer require linceweb/mvc dev-master
 
 ### 2. Criar arquivo index.php
 ```php
+<?php
+
+require('vendor/autoload.php');
+
 // Define Project Folder
 define('project_folder', 'app');
 
