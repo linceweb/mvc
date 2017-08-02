@@ -34,6 +34,10 @@
 
 			$this->dir = $dir;
 			if(!file_exists($this->dir)){
+				mkdir('assets');
+				mkdir('assets/imagens');
+				mkdir('assets/css');
+				mkdir('assets/js');
 				$zip = new \ZipArchive;
 				if($zip->open(__DIR__.'/app.zip') === TRUE) {
 					$zip->extractTo($this->dir);
