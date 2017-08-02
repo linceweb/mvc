@@ -19,6 +19,10 @@ function response(){
   return $GLOBALS['project'];
 }
 ```
+### 3. Executar o index.php para criar as pastas
+`
+Pronto!
+`
 
 # Configurações
 Dentro da pasta do aplicativo **app** (padrão), vai existir o arquivo **Settings.php** que é onde deve ser configurado as informações básicas da aplicação, como por exemplo a conexão com o banco de dados.
