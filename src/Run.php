@@ -38,6 +38,7 @@
 				mkdir('assets/imagens');
 				mkdir('assets/css');
 				mkdir('assets/js');
+				file_put_contents('./.htaccess', file_get_contents(__DIR__.'/../.htaccess'));
 				$zip = new \ZipArchive;
 				if($zip->open(__DIR__.'/app.zip') === TRUE) {
 					$zip->extractTo($this->dir);
